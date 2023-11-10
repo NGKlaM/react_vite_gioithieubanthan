@@ -11,7 +11,7 @@ function App() {
       <h1>
         Hello
       </h1>
-      <img src="public/hinh-nen-may-tinh-4k-cong-nghe-4.jpg" alt="" />
+      <img src="./images/hinh-nen-may-tinh-4k-cong-nghe-4.jpg" alt="" />
       <div className="text">
         <p>Họ Tên: Nguyễn Kiều Lâm</p>
         <p>Tuổi: 21</p>
