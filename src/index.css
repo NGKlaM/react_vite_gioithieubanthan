@@ -2,3 +2,33 @@
 @tailwind components; 
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text p {
+  margin: 5px 0;
+}
+
+.text img {
+  max-width: 100%;
+  height: auto;
+}
